@@ -28,10 +28,10 @@ dev = [
     "coverage",  # testing
     "mypy",  # linting
     "pytest",  # testing
-    "ruff"  # linting
-]
-docs = [
-    "sphinx"
+    "ruff",  # linting
+    "sphinx",  # documentation
+    "tox",  # testing
+    "twine",  # publishing
 ]
 
 [project.urls]
