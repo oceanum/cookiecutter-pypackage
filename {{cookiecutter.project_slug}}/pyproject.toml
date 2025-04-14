@@ -51,6 +51,8 @@ package-dir = {"" = "src"}
 {{cookiecutter.slug}} = "{{cookiecutter.slug}}.cli:app"
 {% endif %}
 
+[tool.setuptools.dynamic]
+version = {attr = "{{cookiecutter.slug}}.__version__"}
 
 # Mypy
 # ----
